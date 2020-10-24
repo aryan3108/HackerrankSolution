@@ -1,7 +1,7 @@
 s = input()
-slis = list()
-clis = list()
-nlis = list()
+slis = list()#list for small letter
+clis = list()#list for capital letter
+nlis = list()#list for number
 for i in s:
     if i.isdigit():
         nlis.append(i)
